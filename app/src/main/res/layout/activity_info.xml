@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/s"
+    tools:context=".Info">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="70dp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:textColor="#ff0000"
+        android:text="GUIDE"/>
+
+    <ImageView
+        android:layout_width="318dp"
+        android:layout_height="188dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/earth2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textSize="30dp"
+        android:textColor="#ffff00"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:text="Below is the table guide for you. Exceeding the deadly limit would ultimately leave you with engine off !"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="EMISSION TABLE"
+        android:textColor="#ffffff"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="342dp"
+        android:layout_marginTop="-40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="-20dp"
+        android:src="@drawable/info" />
+
+    <Button
+        android:id="@+id/btnGo"
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/buttonshape1"
+        android:text="LET'S GO"
+        android:layout_marginTop="-20dp"
+        android:textColor="#F4FF57"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

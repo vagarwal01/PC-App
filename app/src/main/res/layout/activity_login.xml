@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login"
+    tools:context=".Login">
+
+    <TextView
+        android:layout_width="409dp"
+        android:layout_height="104dp"
+        android:layout_x="0dp"
+        android:layout_y="23dp"
+        android:gravity="center"
+        android:text="LOGIN"
+        android:textStyle="bold"
+        android:textColor="#FF8C00"
+        android:textSize="80sp" />
+
+    <EditText
+        android:id="@+id/txtEmail"
+        android:layout_width="340dp"
+        android:layout_height="70dp"
+        android:layout_x="21dp"
+        android:layout_y="159dp"
+        android:background="@drawable/edittextshape"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="20dp"
+        android:textColor="#ffffff"
+        android:textColorHint="#A9FFFFFF"
+        android:textSize="40sp" />
+
+    <EditText
+        android:id="@+id/txtPassword"
+        android:layout_width="340dp"
+        android:layout_height="70dp"
+        android:layout_x="21dp"
+        android:layout_y="265dp"
+        android:background="@drawable/edittextshape"
+        android:hint="Password"
+        android:inputType="numberPassword"
+        android:paddingLeft="20dp"
+        android:textColor="#ffffff"
+        android:textColorHint="#A9FFFFFF"
+        android:textSize="40sp" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:layout_x="24dp"
+        android:layout_y="370dp"
+        android:background="@drawable/buttonshape1"
+        android:text="LOGIN"
+        android:textColor="#F4FF57"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:layout_x="211dp"
+        android:layout_y="370dp"
+        android:background="@drawable/buttonshape"
+        android:text="Register"
+        android:textColor="#0000ff"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="410dp"
+        android:layout_height="60dp"
+        android:layout_x="2dp"
+        android:layout_y="465dp"
+        android:background="@drawable/bottomtextview"
+        android:gravity="center"
+        android:text="Let's save the earth together"
+        android:textColor="#00FFFF"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_x="58dp"
+        android:layout_y="548dp"
+        android:src="@drawable/save" />
+
+</AbsoluteLayout>

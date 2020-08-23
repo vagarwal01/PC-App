@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg6"
+    tools:context=".AddCar">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/btnBack"
+            android:clickable="true"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/back"/>
+        <ImageView
+            android:id="@+id/btnLogout"
+            android:clickable="true"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="230dp"
+            android:src="@drawable/logout"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="409dp"
+        android:layout_height="104dp"
+        android:gravity="center"
+        android:text="CAR DETAILS"
+        android:textColor="#00FFFF"
+        android:layout_marginTop="-20dp"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/txtBrand"
+        android:layout_width="340dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/edittextshape2"
+        android:hint="Car brand"
+        android:inputType="text"
+        android:paddingLeft="20dp"
+        android:textColor="#4A08FF"
+        android:textColorHint="#4A08FF"
+        android:textSize="40sp" />
+
+    <EditText
+        android:id="@+id/txtModel"
+        android:layout_width="340dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/edittextshape2"
+        android:hint="Car Model"
+        android:inputType="text"
+        android:paddingLeft="20dp"
+        android:textColor="#4A08FF"
+        android:textColorHint="#4A08FF"
+        android:textSize="40sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="35dp"
+        android:text="Fuel Type:- "
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:textColor="#ffff00"/>
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/radiobtn">
+
+            <RadioButton
+                android:id="@+id/rbPetrol"
+                android:layout_width="160dp"
+                android:layout_height="70dp"
+                android:background="@drawable/edittextshape2"
+                android:text="Petrol"
+                android:textColor="#4A08FF"
+                android:textSize="40sp" />
+            <RadioButton
+                android:id="@+id/rbDiesel"
+                android:layout_width="160dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="23dp"
+                android:background="@drawable/edittextshape2"
+                android:text="Diesel"
+                android:textColor="#4A08FF"
+                android:textSize="40sp" />
+
+        </RadioGroup>
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/buttonshape3"
+        android:text="ADD"
+        android:layout_marginTop="40dp"
+        android:textColor="#ff0000"
+        android:textSize="40sp"
+        android:textStyle="bold"/>
+
+
+</LinearLayout>

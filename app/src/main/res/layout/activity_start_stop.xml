@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg7"
+    tools:context=".start_stop">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/btnBack"
+            android:clickable="true"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/back"/>
+        <ImageView
+            android:id="@+id/btnLogout"
+            android:clickable="true"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="230dp"
+            android:src="@drawable/logout"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Press the button to start the car"
+        android:textSize="25dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#ffff00"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:id="@+id/car_image"
+        android:layout_width="320dp"
+        android:layout_height="320dp"
+        android:clickable="true"
+        android:layout_marginTop="35dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/engine"/>
+
+    <TextView
+        android:id="@+id/txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="#ffff00"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:textSize="30dp"
+        android:textStyle="bold"/>
+
+</LinearLayout>

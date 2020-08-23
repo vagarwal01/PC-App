@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/s"
+    tools:context=".Info_home">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="70dp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:textColor="#FF0000"
+        android:text="GUIDE"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:layout_marginTop="-20dp"
+        android:textColor="#00ff00"
+        android:text="Welcome To PC App !"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textSize="30dp"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"
+        android:textColor="#00ffff"
+        android:text="This app makes you control your car emissions so as to save fuel for you and most importantly to save the earth from pollution."/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textSize="25dp"
+        android:textColor="#ffff00"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:text="Below is the table guide for you. Exceeding the deadly limit would ultimately leave you with engine off!"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="EMISSION TABLE"
+        android:textColor="#ffffff"
+        android:textSize="40dp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="342dp"
+        android:layout_marginTop="-40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="-20dp"
+        android:src="@drawable/info" />
+
+    <TextView
+        android:layout_width="410dp"
+        android:layout_height="60dp"
+        android:background="@drawable/bottomtextview"
+        android:gravity="center"
+        android:text="Let's be Eco-Friendly"
+        android:layout_marginTop="-20dp"
+        android:textColor="#00FFFF"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

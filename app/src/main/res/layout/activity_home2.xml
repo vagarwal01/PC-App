@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/car"
+    tools:context=".Home2">
+
+    <ImageView
+        android:id="@+id/helpBtn"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_x="106dp"
+        android:layout_y="301dp"
+        android:src="@drawable/help" />
+    <ImageView
+        android:id="@+id/logoutBtn"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_x="335dp"
+        android:layout_y="10dp"
+        android:src="@drawable/logout" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="-60dp"
+        android:layout_y="0dp"
+        android:rotation="-45"
+        android:text="WE\nWANT\nHEALTHY AIR"
+        android:textAlignment="center"
+        android:textColor="#0000ff"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="-20dp"
+        android:layout_y="107dp"
+        android:rotation="-45"
+        android:text="HEALTHY"
+        android:textAlignment="center"
+        android:textColor="#ff0000"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnMyCars"
+        android:layout_width="196dp"
+        android:layout_height="76dp"
+        android:layout_x="105dp"
+        android:layout_y="420dp"
+        android:background="@drawable/btnshape"
+        android:text="MY CARS"
+        android:textColor="#3C00FF"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="470dp"
+        android:layout_x="3dp"
+        android:layout_y="742dp"
+        android:background="@drawable/bottomtextview"
+        android:gravity="center_horizontal"
+        android:text='"Be a part of a solution not part of the pollution"'
+        android:textColor="#ffff00"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+</AbsoluteLayout>

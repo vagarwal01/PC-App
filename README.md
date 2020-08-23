@@ -10,4 +10,4 @@ The app is made in Java</br>
 The arduino code is written in C
 
 #### Preview
-<img src="Picture1.jpg" width="200" height="350"> &nbsp;&nbsp;&nbsp; <img src="Picture2.jpg" width="200" height="350"> <img src="Picture3.jpg" width="200" height="350"> &nbsp;&nbsp;&nbsp; <img src="Picture4.jpg" width="200" height="350">
+<img src="Picture1.jpg" width="200" height="350"> &nbsp;&nbsp;&nbsp; <img src="Picture2.jpg" width="200" height="350"> &nbsp;&nbsp;&nbsp; <img src="Picture3.jpg" width="200" height="350"> &nbsp;&nbsp;&nbsp; <img src="Picture4.jpg" width="200" height="350">
